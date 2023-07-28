@@ -18,7 +18,7 @@ public class Main {
         for (int i = 1; total < 2_459_000; i++) {
             total = total + deposit;
             total = total + total / 100;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
         }
         System.out.println();
     }
@@ -47,7 +47,7 @@ public class Main {
         int growthYear = fertility - mortality;
         for (int i = 1; i <= 10; i++) {
             population = population + population * growthYear / 1000;
-            System.out.println("Год " + i + ", численность населения составляет " + population + " человек");
+            System.out.println("Год " + i + ", численность населения составляет " + population + " человек.");
         }
         System.out.println();
     }
@@ -59,7 +59,7 @@ public class Main {
         for (int i = 1; total < 12_000_000; i++) {
             total = total + total / 100 * 7;
             total = total + deposit;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
         }
         System.out.println();
     }
@@ -72,7 +72,7 @@ public class Main {
             total = total + total / 100 * 7;
             total = total + deposit;
             if (i % 6 == 0) {
-                System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+                System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
             }
         }
         System.out.println();
@@ -86,7 +86,7 @@ public class Main {
             total = total + total / 100 * 7;
             total = total + deposit;
             if (i % 6 == 0) {
-                System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+                System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
             }
         }
         System.out.println();
@@ -96,7 +96,7 @@ public class Main {
         System.out.println("Задача 7");
         int reportingDay = 2;
         while (reportingDay < 31) {
-            System.out.println("Сегодня пятница, " + reportingDay + "-е число. Необходимо подготовить отчёт");
+            System.out.println("Сегодня пятница, " + reportingDay + "-е число. Необходимо подготовить отчёт.");
             reportingDay = reportingDay + 7;
         }
         System.out.println();
